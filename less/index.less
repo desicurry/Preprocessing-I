@@ -60,7 +60,7 @@ html, body {
 @import url('https://fonts.googleapis.com/css?family=Play|ZCOOL+XiaoWei&display=swap" rel="stylesheet');
 
 //variables
-@background-color green;
+@background-color: green;
 @heading-font:'ZCOOL XiaoWei', serif;
 @paragraph-font:'Play', sans-serif;
 
@@ -155,6 +155,7 @@ header{
 .main-content{
 	display:flex;
 	flex-wrap:wrap;
+	justify-content: space-between;
 
 	@media( max-width:500px ){
 		flex-direction:column;
@@ -225,27 +226,27 @@ header{
 
 
 			}
-
 		}
 
+		form {
+			font-size: 2rem;
+			font: @paragraph-font
+		}
 		
-		}
+			input {
+				font-size: 2rem;
+			}	
+			
 
-		}
+			textarea{
+				font-size: 2rem;
+				align-content: space-around;
+			}
 
-		{
-
+			li{
+				font-size: 2rem;
+			}
 		}
-		footer {
-			font-size: 1rem;
-			justify-content: center;
-			align-items: center;
-		}
-	}
-
-	footer {
-		font-size: 1rem;
-		justify-content: center;
-		align-items: center;
-	}
-} 
+	
+		
+}

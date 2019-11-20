@@ -159,7 +159,7 @@ header {
   padding: 20px;
   display: flex;
   justify-content: space-around;
-  background-color: blue;
+  background-color: green;
 }
 @media (max-width: 500px) {
   header {
@@ -198,6 +198,7 @@ header nav a {
 .main-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 @media (max-width: 500px) {
   .main-content {
@@ -247,7 +248,7 @@ header nav a {
 .main-content section .team-up-btn {
   font-size: 2rem;
   margin: 1rem;
-  background-color: blue;
+  background-color: green;
   font-family: 'ZCOOL XiaoWei', serif;
 }
 @media (max-width: 500px) {
@@ -257,22 +258,17 @@ header nav a {
     align-items: center;
   }
 }
-.main-content section ul {
-  font-size: 1.5rem;
-  margin: 3%;
+.main-content section form {
+  font-size: 2rem;
+  font: 'Play', sans-serif;
 }
-.main-content section ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 10%;
-  font-family: 'Play', sans-serif;
+.main-content section input {
+  font-size: 2rem;
 }
-@media (max-width: 500px) {
-  .main-content section ul li {
-    font-size: 1rem;
-    justify-content: center;
-    align-items: center;
-  }
+.main-content section textarea {
+  font-size: 2rem;
+  align-content: space-around;
+}
+.main-content section li {
+  font-size: 2rem;
 }
